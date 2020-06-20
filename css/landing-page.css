@@ -1,0 +1,134 @@
+/*New css */
+video{
+    width: 100%;
+    height: auto;
+      }
+@media only screen and (max-width: 768px) { 
+      .landing-page-section{
+            margin-top: 5rem;
+            margin-bottom: 10rem;;
+      }
+      .card-one, .card-two, .card-three{
+            height: 40rem;
+      }
+      .image-block-one, .image-block-two, .image-block-three{
+            height: 30rem;
+        }
+}
+@media only screen and (min-width: 768px) { 
+.landing-page-section{
+      margin-top: -18rem;
+      margin-bottom: 10rem;;
+}
+.card-one, .card-two, .card-three{
+      height: 40rem;
+  }
+  .image-block-one, .image-block-two, .image-block-three{
+      height: 35rem;
+  }
+}
+@media only screen and (min-width: 992px) { 
+      .landing-page-section{
+            margin-top: -18rem;
+            margin-bottom: 10rem;;
+      }
+      .card-one, .card-two, .card-three{
+            height: 40rem;
+        }
+        .image-block-one, .image-block-two, .image-block-three{
+            height: 45rem;
+        }
+      }
+.col-md-4, .col-sm-4, .col-lg-4{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.card-one, .card-three{
+    background-color: white;
+    cursor: pointer;
+}
+.card-two{
+      background-color: black;
+}
+.card-row{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.carousel{
+      z-index: -1;
+}
+.landing-page-section{
+      position: relative;
+      /* z-index: 1;; */
+}
+.card-body-one{
+      position: relative;
+        
+}
+.logo-image{
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: .5s ease;
+
+}
+
+.image-block-one{
+      background-image: url(../images/category/04.jpg);
+}
+.image-block-two{
+      background-image: url(../images/category/01.jpg);
+}
+.image-block-three{
+      background-image: url(../images/category/03.jpg);
+}
+.image-block-one, .image-block-two, .image-block-three{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+  
+    .overlay-top {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #008CBA;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transition: .50s ease;
+    }
+    
+    .image-block-one:hover .overlay-top, .image-block-two:hover .overlay-top, .image-block-three:hover .overlay-top {
+      bottom: 100%;
+      height: 0;
+    }
+    .logo-section {
+      white-space: nowrap; 
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      z-index: 1;
+      transition: .50s ease;
+    }
+    .image-block-one:hover .logo-section, .image-block-two:hover .logo-section, .image-block-three:hover .logo-section {
+      white-space: nowrap; 
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transition: .50s ease;
+    }
