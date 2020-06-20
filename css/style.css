@@ -91,7 +91,8 @@ textarea.form-control:focus { box-shadow: inset 1500px 0px 0px rgba(0, 0, 0, 0.0
  .background-04 { background-image: url(../images/bg/04.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover; }
  .background-05 { background-image: url(../images/bg/05.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover; }
  .background-06 { background-image: url(../images/bg/06.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover; }
- 
+ .background-07 { background-image: url(../images/bg/01.jpg); background-position: center top; position: relative; z-index: 1; background-repeat: no-repeat;  }
+
 
 .bg-overlay-black-10:before { background: rgba(0, 0, 0, 0.1); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
 .bg-overlay-black-20:before { background: rgba(0, 0, 0, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
@@ -530,4 +531,18 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
 
 }
 
-
+/* new css */
+@media only screen and (max-width: 992px) { 
+      .ordering-logo{
+            margin-top: 2rem;
+            margin-bottom: 8rem;
+      }
+      }
+@media only screen and (min-width: 992px) { 
+.ordering-logo{
+      margin-top: 2rem;
+}
+.catering-text{
+      margin-top: 100px;
+}
+}
