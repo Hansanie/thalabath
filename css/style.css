@@ -543,7 +543,7 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       .order-chicken{
             font-size: 16px;
       }
-      }
+}
 @media only screen and (max-width: 992px) { 
       .ordering-logo{
             margin-top: 2rem;
@@ -552,22 +552,22 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       .chicken-text{
             margin-top: 8rem;
       }
-      }
+}
 @media only screen and (min-width: 992px) { 
-.ordering-logo, .ordering-logo-chicken{
-      margin-top: 2rem;
-}
-.catering-text{
-      margin-top: 100px;
-}
-.chicken-text{
-      margin-top: 70px;
-}
-.order-chicken{
-      margin-top: 2rem;
-}
-.ordering-logo-chicken{
-      margin-top: 2rem;
-      margin-bottom: 6rem;
-}
+      .ordering-logo, .ordering-logo-chicken{
+            margin-top: 2rem;
+      }
+      .catering-text{
+            margin-top: 100px;
+      }
+      .chicken-text{
+            margin-top: 70px;
+      }
+      .order-chicken{
+            margin-top: 2rem;
+      }
+      .ordering-logo-chicken{
+            margin-top: 2rem;
+            margin-bottom: 6rem;
+      }
 }

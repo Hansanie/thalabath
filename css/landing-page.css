@@ -1,56 +1,40 @@
-/*New css */
+/*css for landing page */
 video{
     width: 100%;
     height: auto;
-      }
+}
 @media only screen and (max-width: 768px) { 
       .landing-page-section{
             margin-top: 5rem;
             margin-bottom: 10rem;;
       }
-      .card-one, .card-two, .card-three{
-            height: 40rem;
-      }
       .image-block-one, .image-block-two, .image-block-three{
             height: 30rem;
-        }
+      }
 }
 @media only screen and (min-width: 768px) { 
-.landing-page-section{
-      margin-top: -18rem;
-      margin-bottom: 10rem;;
-}
-.card-one, .card-two, .card-three{
-      height: 40rem;
-  }
-  .image-block-one, .image-block-two, .image-block-three{
-      height: 35rem;
-  }
+      .landing-page-section{
+            margin-top: -18rem;
+            margin-bottom: 10rem;;
+      }
+      .image-block-one, .image-block-two, .image-block-three{
+            height: 35rem;
+      }
 }
 @media only screen and (min-width: 992px) { 
       .landing-page-section{
             margin-top: -18rem;
             margin-bottom: 15rem;;
       }
-      .card-one, .card-two, .card-three{
-            height: 40rem;
-        }
-        .image-block-one, .image-block-two, .image-block-three{
+      .image-block-one, .image-block-two, .image-block-three{
             height: 45rem;
-        }
       }
+}
 .col-md-4, .col-sm-4, .col-lg-4{
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-}
-.card-one, .card-three{
-    background-color: white;
-    cursor: pointer;
-}
-.card-two{
-      background-color: black;
 }
 .card-row{
     margin-right: 10%;
@@ -62,20 +46,13 @@ video{
 }
 .landing-page-section{
       position: relative;
-      /* z-index: 1;; */
-}
-.card-body-one{
-      position: relative;
-        
 }
 .logo-image{
       width: 100%;
       height: auto;
       display: block;
       transition: .5s ease;
-
 }
-
 .image-block-one{
       background-image: url(../images/category/04.jpg);
 }
@@ -90,8 +67,7 @@ video{
       background-repeat: no-repeat;
       background-size: cover;
 }
-  
-    .overlay-top {
+.overlay-top {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -101,13 +77,13 @@ video{
       width: 100%;
       height: 100%;
       transition: .50s ease;
-    }
+}
     
-    .image-block-one:hover .overlay-top, .image-block-two:hover .overlay-top, .image-block-three:hover .overlay-top {
+.image-block-one:hover .overlay-top, .image-block-two:hover .overlay-top, .image-block-three:hover .overlay-top {
       bottom: 100%;
       height: 0;
-    }
-    .logo-section {
+}
+.logo-section {
       white-space: nowrap; 
       color: white;
       font-size: 20px;
@@ -119,8 +95,8 @@ video{
       -ms-transform: translate(-50%, -50%);
       z-index: 1;
       transition: .50s ease;
-    }
-    .image-block-one:hover .logo-section, .image-block-two:hover .logo-section, .image-block-three:hover .logo-section {
+}
+.image-block-one:hover .logo-section, .image-block-two:hover .logo-section, .image-block-three:hover .logo-section {
       white-space: nowrap; 
       color: white;
       font-size: 20px;
@@ -131,4 +107,4 @@ video{
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transition: .50s ease;
-    }
+}
