@@ -93,6 +93,7 @@ textarea.form-control:focus { box-shadow: inset 1500px 0px 0px rgba(0, 0, 0, 0.0
  .background-06 { background-image: url(../images/bg/06.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover; }
  .background-07 { background-image: url(../images/about-us.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover;}
  .background-08 { background-image: url(../images/bg/02.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover;}
+ .background-09 { background-image: url(../images/about-us1.jpg); background-position: right right;  background-repeat: no-repeat;}
 
 
 .bg-overlay-black-10:before { background: rgba(0, 0, 0, 0.1); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
@@ -571,4 +572,27 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
             margin-top: 2rem;
             margin-bottom: 6rem;
       }
+      .about-us{
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+      }
+      .about-text{
+            padding: 10%;
+      }
 }
+.col-container {
+      display: table;
+      width: 100%;
+    }
+    .col.about-us {
+      display: table-cell;
+      padding: 16px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .col.about-us { 
+        display: block;
+        width: 100%;
+      }
+    }
+    .about-text p { color: #ffffff;  font-style: italic; font-size: 16px; margin-bottom: 20px; }
