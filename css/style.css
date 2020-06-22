@@ -596,3 +596,8 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       }
     }
     .about-text p { color: #ffffff;  font-style: italic; font-size: 16px; margin-bottom: 20px; }
+
+/* Why Raptors */
+.reason-content { background:#e89418; padding: 50px 80px; }
+.reason-content p { font-size: 18px; font-weight: 600; line-height: 28px; font-style: italic;color: #fff; }
+.reason-content h2 { margin-bottom: 30px; color: #fff;}
