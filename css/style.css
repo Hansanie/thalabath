@@ -94,7 +94,8 @@ textarea.form-control:focus { box-shadow: inset 1500px 0px 0px rgba(0, 0, 0, 0.0
  .background-07 { background-image: url(../images/about-us.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover;}
  .background-08 { background-image: url(../images/bg/02.jpg); background-position: center center; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover;}
  .background-09 { background-image: url(../images/about-us1.jpg); background-position: right right;  background-repeat: no-repeat;}
-
+ .background-10 { background-image: url(../images/about-us-img.jpg); background-position: right; position: relative; z-index: 1; background-repeat: no-repeat; background-size: cover; }
+ 
 
 .bg-overlay-black-10:before { background: rgba(0, 0, 0, 0.1); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
 .bg-overlay-black-20:before { background: rgba(0, 0, 0, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
@@ -545,6 +546,29 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       .order-chicken{
             font-size: 16px;
       }
+      .aspen{
+            max-width: 50%;
+            margin-left: 25%;
+      }
+      .logo-section{
+            margin: 5rem;
+      }
+      .client-title{
+            padding-top: 0rem !important;
+      }
+      .health-details{
+            font-size: 18px;
+      }
+      .health-title{
+            padding-top: 3rem !important;
+      }
+      .why-us-title{
+            padding-top: 3rem !important;
+            padding-bottom: 3rem !important;
+      }
+      .why-us-heading{
+           font-size: 23px;
+      }
 }
 @media only screen and (max-width: 992px) { 
       .ordering-logo{
@@ -553,6 +577,15 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       }
       .chicken-text{
             margin-top: 8rem;
+      }
+      .client-title, .why-us-title, .health-title{
+            padding-top: 6rem;
+      }
+      .health_container{
+            padding-bottom: 8rem;
+      }
+      .why-raptors-title{
+            padding-top:1rem;
       }
 }
 @media only screen and (min-width: 992px) { 
@@ -579,26 +612,45 @@ ul.list-style li { font-size: 16px; line-height: 28px; }
       .about-text{
             padding: 10%;
       }
-}
-.col-container {
-      display: table;
-      width: 100%;
-    }
-    .col.about-us {
-      display: table-cell;
-      padding: 16px;
-    }
-    
-    @media only screen and (max-width: 600px) {
-      .col.about-us { 
-        display: block;
-        width: 100%;
+      .bottom-logos{
+            margin-left: 20rem;
       }
-    }
-    .about-text p { color: #ffffff;  font-style: italic; font-size: 16px; margin-bottom: 20px; }
+      .client-title, .why-us-title, .health-title{
+            padding-top: 6rem;
+      }
+      .health_container{
+            padding: 0rem 15rem 10rem 15rem;
+      }
+      .why-raptors-title{
+            padding-top:5rem;
+      }
+}
+
+.about-text p { color: #ffffff;  font-style: italic; font-size: 16px; margin-bottom: 20px; }
 
 /* Why Raptors */
 .reason-content { background:#e89418; padding: 50px 80px; }
 .reason-content p { font-size: 18px; font-weight: 600; line-height: 28px; font-style: italic;color: #fff; }
 .reason-content h2 { margin-bottom: 30px; color: #fff;}
 .text-why-raptors h3{font-size: 23px; font-weight: 300; line-height: 32px; color: #fff;}
+
+.client-title, .why-us-title{
+      text-align:center; 
+      padding-bottom: 6rem; 
+}
+.why-us-heading{
+      font-weight: 400;
+}
+.health-title{
+      text-align: center;
+      /* padding-top: 8rem; */
+      color: #8c1a1c;
+}
+.health-details{
+      font-weight: 300;
+      text-align: center;
+      padding-bottom: 1rem;
+}
+.why-raptors-title{
+      text-align: center; 
+}
