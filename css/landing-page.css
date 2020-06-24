@@ -10,6 +10,14 @@ video{
       }
       .image-block-one, .image-block-two, .image-block-three{
             height: 30rem;
+      }      
+      .carousel-indicators li{
+            width: 12px;
+            height: 12px;
+      }
+      .carousel-indicators .active{
+            width: 14px;
+            height: 14px;
       }
 }
 @media only screen and (min-width: 768px) { 
@@ -20,6 +28,23 @@ video{
       .image-block-one, .image-block-two, .image-block-three{
             height: 35rem;
       }
+      .image-block-one:hover .logo-image, .image-block-two:hover .logo-image, .image-block-three:hover .logo-image {
+            width: 60%;
+            margin-left: 20%;
+            height: auto;
+            display: block;
+            transition: .5s ease;
+      }
+      
+      .carousel-indicators li{
+            width: 16px;
+            height: 16px;
+            margin: 2px;
+      }
+      .carousel-indicators .active{
+            width: 18px;
+            height: 18px;
+      }
 }
 @media only screen and (min-width: 992px) { 
       .landing-page-section{
@@ -28,6 +53,14 @@ video{
       }
       .image-block-one, .image-block-two, .image-block-three{
             height: 45rem;
+      }
+      .carousel-indicators li{
+            width: 20px;
+            height: 20px;
+      }
+      .carousel-indicators .active{
+            width: 22px;
+            height: 22px;
       }
 }
 .col-md-4, .col-sm-4, .col-lg-4{
@@ -42,16 +75,10 @@ video{
     width: 80%;
 }
 .carousel{
-      z-index: -1;
+      /* z-index: -1; */
 }
 .landing-page-section{
       position: relative;
-}
-.logo-image{
-      width: 100%;
-      height: auto;
-      display: block;
-      transition: .5s ease;
 }
 .image-block-one{
       background-image: url(../images/category/04.jpg);
@@ -83,6 +110,12 @@ video{
       bottom: 100%;
       height: 0;
 }
+.logo-image{
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: .5s ease;
+}
 .logo-section {
       white-space: nowrap; 
       color: white;
@@ -102,9 +135,35 @@ video{
       font-size: 20px;
       position: absolute;
       overflow: hidden;
-      top: 30%;
+      top: 15rem;
       left: 50%;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transition: .50s ease;
+}
+.logo-text{
+      display: none;
+      color:white; 
+      text-align:center;
+      font-weight: bold;
+}
+.image-block-one:hover .logo-text, .image-block-two:hover .logo-text, .image-block-three:hover .logo-text{
+      display: block;
+}
+.carousel-indicators {
+      display: grid;
+      text-align: right !important;
+    float: right !important;
+    right: 6% !important;
+    left: inherit !important;
+    width: 0%;
+}
+ol{
+      margin-bottom: 25%;
+}
+li{
+      margin-bottom: 2rem;
+}
+.carousel-indicators .active{
+      background-color: #870027;
 }
