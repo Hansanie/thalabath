@@ -3,6 +3,11 @@ video{
     width: 100%;
     height: auto;
 }
+@media only screen and (max-width: 560px) {
+      .carousel-indicators{
+            top: 60px !important;
+      }
+} 
 @media only screen and (max-width: 768px) { 
       .landing-page-section{
             margin-top: 5rem;
@@ -19,6 +24,9 @@ video{
             width: 14px;
             height: 14px;
       }
+      /* .carousel-indicators{
+            top: 60px !important;
+      } */
 }
 @media only screen and (min-width: 768px) { 
       .landing-page-section{
@@ -81,13 +89,13 @@ video{
       position: relative;
 }
 .image-block-one{
-      background-image: url(../images/category/04.jpg);
+      background-image: url(../images/sections/01.jpg);
 }
 .image-block-two{
-      background-image: url(../images/category/01.jpg);
+      background-image: url(../images/sections/02.jpg);
 }
 .image-block-three{
-      background-image: url(../images/category/03.jpg);
+      background-image: url(../images/sections/03.jpg);
 }
 .image-block-one, .image-block-two, .image-block-three{
       background-position: center;
@@ -161,9 +169,12 @@ video{
 ol{
       margin-bottom: 25%;
 }
-li{
+.carousel-indicators li, .carousel-indicators li.active{
       margin-bottom: 2rem;
 }
 .carousel-indicators .active{
       background-color: #870027;
+}
+.myClass{
+      z-index: -1;
 }
